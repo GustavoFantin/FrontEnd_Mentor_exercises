@@ -1,0 +1,208 @@
+* {
+    margin: 0;
+    box-sizing: border-box;
+    font-family: "Inter", sans-serif;
+    font-optical-sizing: auto;
+    font-style: normal;
+}
+
+.container {
+    background-color: hsl(0, 0%, 8%);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    box-sizing: border-box;
+    width: 100vw;
+    height: 100vh;
+}
+
+.profile_box {
+    /* background-color: hsl(0, 0%, 12%); */
+    color: hsl(0, 0%, 100%);
+    background-color: hsl(0, 0%, 12%);
+    width: 385px;
+    height: 615px;
+    margin-top: 140px;
+    margin-right: 14px;
+    border-radius: 15px;
+}
+
+.pic {
+    width: 88px;
+    border-radius: 50%;
+    margin-bottom: 20px;
+
+}
+
+.profile {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    text-align: center;
+    margin-top: 40px;
+}
+
+.name {
+    font-weight: 600;
+    font-size: 25px;
+}
+
+.adress {
+    font-weight: 700;
+    color: hsl(75, 94%, 57%);
+    margin-top: 10px;
+    font-size: 14px;
+}
+
+.about {
+    font-weight: 400;
+    margin-top: 25px;
+    font-size: 14.5px;
+}
+
+.buttons {
+    margin-top: 30px;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    font-weight: 700;
+    border: transparent;
+}
+
+.github {
+    width: 305px;
+    height: 45px;
+    background-color: hsl(0, 0%, 20%);
+    border-radius: 5px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 14px;
+    margin-bottom: 16px;
+    color: white;
+    font-weight: 700;
+    transition: 0.3s ease-in-out;
+    border: transparent;
+}
+
+
+.github:hover {
+    background-color: hsl(75, 94%, 57%);
+    color: hsl(0, 0%, 12%);
+    font-weight: 600;
+    border: transparent;
+    transition: 0.3s ease-in-out;
+    font-family: "Inter", sans-serif;
+    font-optical-sizing: auto;
+    font-style: normal;
+}
+
+.frontend {
+    width: 305px;
+    height: 45px;
+    background-color: hsl(0, 0%, 20%);
+    border-radius: 5px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 14px;
+    margin-bottom: 16px;
+    color: white;
+    font-weight: 700;
+    border: transparent;
+    transition: 0.3s ease-in-out;
+}
+
+.frontend:hover {
+    background-color: hsl(75, 94%, 57%);
+    color: hsl(0, 0%, 12%);
+    font-weight: 600;
+    border: transparent;
+    transition: 0.3s ease-in-out;
+    font-family: "Inter", sans-serif;
+    font-optical-sizing: auto;
+    font-style: normal;
+}
+
+.linkedin {
+    width: 305px;
+    height: 45px;
+    background-color: hsl(0, 0%, 20%);
+    border-radius: 5px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 14px;
+    margin-bottom: 16px;
+    color: white;
+    font-weight: 700;
+    border: transparent;
+    transition: 0.3s ease-in-out;
+}
+
+.linkedin:hover {
+    background-color: hsl(75, 94%, 57%);
+    color: hsl(0, 0%, 12%);
+    font-weight: 600;
+    border: transparent;
+    transition: 0.3s ease-in-out;
+    font-family: "Inter", sans-serif;
+    font-optical-sizing: auto;
+    font-style: normal;
+}
+
+.twitter {
+    width: 305px;
+    height: 45px;
+    background-color: hsl(0, 0%, 20%);
+    border-radius: 5px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 14px;
+    margin-bottom: 16px;
+    color: white;
+    font-weight: 700;
+    border: transparent;
+    transition: 0.3s ease-in-out;
+}
+
+.twitter:hover {
+    background-color: hsl(75, 94%, 57%);
+    color: hsl(0, 0%, 12%);
+    font-weight: 600;
+    border: transparent;
+    transition: 0.3s ease-in-out;
+    font-family: "Inter", sans-serif;
+    font-optical-sizing: auto;
+    font-style: normal;
+}
+
+.instagram {
+    width: 305px;
+    height: 45px;
+    background-color: hsl(0, 0%, 20%);
+    border-radius: 5px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 14px;
+    margin-bottom: 16px;
+    color: white;
+    font-weight: 700;
+    border: transparent;
+    transition: 0.3s ease-in-out;
+}
+
+.instagram:hover {
+    background-color: hsl(75, 94%, 57%);
+    color: hsl(0, 0%, 12%);
+    font-weight: 600;
+    border: transparent;
+    transition: 0.3s ease-in-out;
+    font-family: "Inter", sans-serif;
+    font-optical-sizing: auto;
+    font-style: normal;
+}
